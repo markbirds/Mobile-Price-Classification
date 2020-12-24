@@ -1,5 +1,8 @@
 ## Mobile Price Classification
 
+### Jupyter notebook used in Data analysis and Model Building
+https://github.com/markbirds/Mobile-Price-Classification/blob/master/model/mobile-price-classification.ipynb
+
 ### Model scores
 ```
 K-nearest neighbors: 0.83
