@@ -8,7 +8,7 @@ px_width = int(input('Pixel resolution (width - horizontal view): '))
 px_height = int(input('Pixel resolution (height - horizontal view): '))
 internal_memory = int(input('Internal memory in gigabytes: '))
 
-model = pickle.load(open('mobile_price_model.pickle','rb'))
+model = pickle.load(open('model/mobile_price_model.pickle','rb'))
 predicted_value = model.predict([[ram,battery_power,px_width,px_height,internal_memory]])
 phone_cost = ['low','medium','high','very high']
 
